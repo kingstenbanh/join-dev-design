@@ -20,36 +20,31 @@
 </head>
 
 <body class="js-theme-dark">
-  <div id="app" class="container">
-    <header>
-      <div class="logo-link" title="Microsoft Website">
-        <div class="logo" role="img" aria-label="Microsoft Logo">
-          <span @click="clickColor('red')" class="logo-tile" v-bind:class="logoTitleRed"></span>
-          <span @click="clickColor('green')" class="logo-tile" v-bind:class="logoTitleGreen"></span>
-          <span @click="clickColor('blue')" class="logo-tile" v-bind:class="logoTitleBlue"></span>
-          <span @click="clickColor('yellow')" class="logo-tile" v-bind:class="logoTitleYellow"></span>
-        </div>
-      </div>
-      <span v-if="winner" class="winner">🎊 Simon says...A winner is you! 🎊</span>
-    </header>
+  <div class="container">
+    <div id="app"></div>
     <main>
       <h1>
-        Microsoft is looking for designers who code to help create the most compelling developer tools&nbsp;&amp;&nbsp;services on
+        Microsoft is looking for designers who code to help create the most compelling developer
+        tools&nbsp;&amp;&nbsp;services on
         the planet.
       </h1>
       <p>
-        We have open positions for technical product designers &amp; design leaders in San Francisco, Seattle, and elsewhere.
+        We have open positions for technical product designers &amp; design leaders in San Francisco, Seattle, and
+        elsewhere.
       </p>
       <p>
-        We use PCs, Macs, Figma, Sketch, GitHub, JavaScript, ZEIT, and other modern tools to design, prototype, and build the future
+        We use PCs, Macs, Figma, Sketch, GitHub, JavaScript, ZEIT, and other modern tools to design, prototype, and
+        build the future
         of software development.
       </p>
       <p>
-        We believe in diversity, openness, and building delightful tools that empower every person and organization to achieve more.
+        We believe in diversity, openness, and building delightful tools that empower every person and organization to
+        achieve more.
       </p>
       <p>
         Interested? Send a PR with any improvement to
-        <a href="https://github.com/Microsoft/join-dev-design" title="GitHub repository join-dev-design by the Microsoft organization">microsoft/join-dev-design</a> or
+        <a href="https://github.com/Microsoft/join-dev-design" title="GitHub repository join-dev-design by the Microsoft organization">microsoft/join-dev-design</a>
+        or
         <a href="mailto:mmuno@microsoft.com" title="Email address for mmuno@microsoft.com">email us</a>.
       </p>
     </main>
@@ -81,7 +76,8 @@
       </span>
       <span class="footer-piece footer-piece--separate">
         Created by
-        <a href="https://github.com/Microsoft/join-dev-design/graphs/contributors" id="contributors" title="Contributors to the GitHub repository join-dev-design by the Microsoft organization">10</a> contributors on
+        <a href="https://github.com/Microsoft/join-dev-design/graphs/contributors" id="contributors" title="Contributors to the GitHub repository join-dev-design by the Microsoft organization">10</a>
+        contributors on
         <a href="https://github.com/Microsoft/join-dev-design" title="GitHub repository join-dev-design by the Microsoft organization">GitHub</a>.
       </span>
     </p>
@@ -99,7 +95,7 @@
 
     </script>
   </footer>
-    <script async src="scripts/ls.helper.js"></script>
+  <script async src="scripts/ls.helper.js"></script>
   <script async src="theme/theme.js"></script>
   <script>
     function logLogo(size) {
@@ -121,7 +117,7 @@
     addEventListener('load', markDocumentAsLoaded);
 
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js "></script>
+  <script src="https://unpkg.com/omi@4.0.1/dist/omi.min.js"></script>
   <script src="simon.js "></script>
 </body>
 
